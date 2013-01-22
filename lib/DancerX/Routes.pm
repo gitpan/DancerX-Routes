@@ -1,6 +1,6 @@
 package DancerX::Routes;
 {
-  $DancerX::Routes::VERSION = '0.01';
+  $DancerX::Routes::VERSION = '0.02';
 }
 use strict;
 use warnings;

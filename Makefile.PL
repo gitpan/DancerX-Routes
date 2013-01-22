@@ -21,9 +21,11 @@ my %WriteMakefileArgs = (
   "NAME" => "DancerX::Routes",
   "PREREQ_PM" => {
     "Dancer" => "1.3110",
-    "Dancer::Test" => 0
+    "Dancer::Test" => 0,
+    "Template" => 0,
+    "YAML" => 0
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -3,6 +3,7 @@ MANIFEST
 META.yml
 Makefile.PL
 README
+README.md
 dist.ini
 lib/DancerX/Routes.pm
 t/01_use.t
