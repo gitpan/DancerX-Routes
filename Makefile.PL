@@ -20,11 +20,12 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "DancerX::Routes",
   "PREREQ_PM" => {
+    "Class::Accessor::Fast" => "0.34",
     "Dancer" => "1.3110",
     "Dancer::Test" => 0,
     "YAML" => 0
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }
