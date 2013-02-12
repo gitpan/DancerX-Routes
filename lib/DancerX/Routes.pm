@@ -1,21 +1,11 @@
 package DancerX::Routes;
 {
-  $DancerX::Routes::VERSION = '0.05';
+  $DancerX::Routes::VERSION = '0.06';
 }
 use strict;
 use warnings;
 use base "Class::Accessor::Fast";
 require Dancer;
-
-sub new {
-    my $class = shift ;
-    return $class->var("route_obj") || $class->renew(@_);
-}
-
-sub renew {
-    my $class = shift; 
-    return $class->var(route_obj => $class->SUPER::new(@_));
-}
 
 sub AUTOLOAD {
     my $self = shift;

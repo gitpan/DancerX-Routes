@@ -17,4 +17,4 @@ requires:
   Dancer: 1.3110
   Dancer::Test: 0
   YAML: 0
-version: 0.05
+version: 0.06
